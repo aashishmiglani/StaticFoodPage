@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.logo {
+    margin: 10px 13px;
+}
+
+.logo img {
+    height: 55px;
+    margin: 7px 13px;
+    filter: invert(-100%);
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 98.9vw;
+    z-index: -1;
+    opacity: 0.3;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#navbar li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+#navbar li a {
+    text-decoration: none;
+    display: block;
+    margin: 0px 21px;
+    padding: 2px 22px;
+    color: white;
+}
+
+#navbar li a:hover {
+    border-radius: 21px;
+    background-color: white;
+    color: black;
+}
+
+
+/* SECTION */
+
+#h-primary {
+    display: flex;
+    flex-direction: column;
+    padding: 31px 222px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+#h-primary::before {
+    content: "";
+    position: absolute;
+    background: url("./images/pexels-pixabay-461428.jpg") no-repeat center center/cover;
+    /* background-repeat: no-repeat;
+    background-position: center center; */
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+}
+
+section h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    padding: 12px;
+    text-align: center;
+}
+
+section p {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 15px 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#btn {
+    padding: 5px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    /* border: none; */
+}
+
+
+
+/* section2  */
+
+.services {
+    /* margin: 34px; */
+    display: flex;
+}
+
+.services .box {
+    /* border: 2px solid black; */
+    padding: 29px;
+    margin: 17px;
+    border-radius: 23px;
+    background-color: #ff3c38;
+    box-shadow: 2px 1px 10px #fda19f;
+
+
+}
+
+.services .box:hover {
+    background-color: #fda19f;
+    transition-duration: 0.2s;
+
+}
+
+
+.services .box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+.text {
+    color: black;
+}
+
+.ceck {
+    font-size: 3rem;
+    padding: 12px;
+    color: black;
+}
+
+/* 
+#seconsec {
+    margin-top: 28px;
+} */
+
+.center {
+    text-align: center;
+}
+
+/* clients */
+
+.clienthead {
+    font-size: 3rem;
+    padding-bottom: 43px;
+
+}
+
+#client-section {
+    height: 344px;
+    position: relative;
+    top: 0px;
+    margin-top: 31px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    background: url("./images/pexels-pixabay-461198.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* 
+#client-section {} */
+
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.client-item {
+    padding: 0 25px;
+}
+
+.client-item img {
+    height: 150px;
+
+}
+
+.de {
+    color: black;
+}
+
+
+/* contact Section */
+
+#contact {
+    position: relative;
+    height: 400px;
+}
+
+
+#contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120%;
+    background: url("./images/pexels-fauxels-3183197.jpg");
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+
+
+#contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#mess {
+    height: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 9px 20px;
+    margin-top: 75px;
+}
